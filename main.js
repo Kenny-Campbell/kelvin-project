@@ -1,5 +1,5 @@
 // Step One:
-var kelvin = 293;
+const kelvin = 293;
 console.log(kelvin);
 // Step Two: var remains a consistent value but is not locked. So "kelvin" unitl coded otherwise
 // Step Three:
