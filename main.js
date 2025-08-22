@@ -4,7 +4,7 @@ console.log(kelvin);
 // Step Two: var remains a consistent value but is not locked. So "kelvin" unitl coded otherwise
 // Step Three:
 console.log(kelvin - 273);
-var celcius = 20;
+const celcius = 20;
 // Step Four: var celcius is 20 because kelvin - 293 = 20
 // Step Five:
 console.log(celcius * (9/5) + 32);
@@ -19,8 +19,8 @@ console.log('The temperature is TEMPERATURE degrees in Farenheit.');
 console.log(`The temperature is ${fehrenheit} degress in Farenheit.`);
 // Step 10: Ran program in chrome and it worked
 // Step 11:
-var kelvin = 0;
-var celcius = kelvin - 273;
+const kelvin = 0;
+const celcius = kelvin - 273;
 console.log(celcius);
 console.log(celcius * (9/5) + 32);
 // Step 12: 0 Kelvin is -459.40000000000003
